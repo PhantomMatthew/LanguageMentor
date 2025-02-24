@@ -27,7 +27,7 @@ def get_installed_versions(packages):
             installed_versions[name] = installed_version
         except importlib.metadata.PackageNotFoundError:
             print(f"包 {name} 未安装。")
-            continue
+            continue  # Skip packages that aren't installed
     return installed_versions
 
 # 读取现有的 requirements.txt

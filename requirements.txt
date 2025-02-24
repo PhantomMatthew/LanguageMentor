@@ -5,3 +5,10 @@ langchain_openai==0.1.25
 langchain_ollama==0.1.3
 gradio==4.43.0
 loguru==0.7.2
+pytest==7.4.3
+pytest-mock==3.14.0
+pytest-cov==4.1.0
+pytest-asyncio==0.21.0
+pytest-mock==3.14.0
+pytest-cov==4.1.0
+pytest-asyncio==0.21.0
